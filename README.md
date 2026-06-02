@@ -141,7 +141,7 @@ Generate a high-quality image from a text prompt.
 | `base_url` | *(optional)* OpenAI-compatible API base URL — wire from the Base URL node or leave blank |
 | `model` | GPT Image model: `gpt-image-2`, `gpt-image-1.5`, `gpt-image-1`, or `gpt-image-1-mini` |
 | `n` | Number of images to request, 1-10 |
-| `size` | `auto`, `1024x1024`, `1536x1024`, `1024x1536`, `2048x2048`, `2048x1152`, `3840x2160`, or `2160x3840` |
+| `size` | `auto`, `1024x1024`, `1536x1024`, `1024x1536`, `2048x2048`, `2048x1152`, `1152x2048`, `3840x2160`, or `2160x3840` |
 | `quality` | `auto`, `low`, `medium`, or `high` |
 | `background` | `auto`, `transparent`, or `opaque` |
 | `output_format` | `png`, `jpeg`, or `webp` |
@@ -178,7 +178,7 @@ Edit or transform up to 16 reference images guided by a text prompt.
 | `base_url` | *(optional)* OpenAI-compatible API base URL — wire from the Base URL node or leave blank |
 | `model` | GPT Image model: `gpt-image-2`, `gpt-image-1.5`, `gpt-image-1`, or `gpt-image-1-mini` |
 | `n` | Number of images to request, 1-10 |
-| `size` | `auto`, `1024x1024`, `1536x1024`, `1024x1536`, `2048x2048`, `2048x1152`, `3840x2160`, or `2160x3840` |
+| `size` | `auto`, `1024x1024`, `1536x1024`, `1024x1536`, `2048x2048`, `2048x1152`, `1152x2048`, `3840x2160`, or `2160x3840` |
 | `quality` | `auto`, `low`, `medium`, or `high` |
 | `background` | `auto`, `transparent`, or `opaque` |
 | `input_fidelity` | `auto`, `low`, or `high` |
